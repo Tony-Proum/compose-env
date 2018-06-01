@@ -1,0 +1,8 @@
+version: '3'
+services:
+  my-service:
+    build: myapp
+    environment:
+      - ENV_VALUE
+    ports:
+      - 8080:80
